@@ -4,8 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyqrcode = "*"
 opencv-python = "*"
+pyzbar = "*"
+pillow = "*"
+pandas = "*"
 
 [dev-packages]
 

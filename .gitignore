@@ -1,0 +1,8 @@
+# ignore video files
+
+*.mp4
+*.webm
+*.mkv
+
+# ignore csv files
+*.csv
