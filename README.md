@@ -16,9 +16,15 @@ This script uses OpenCV and pyzbar to detect and read QR codes from a video. The
 You can adjust the reading frequency by changing the `frame_counter % 60` in line 21 in the `main.py` file.
 
 ## Requirements
-
+- Zbar lib
 - Pipenv
 - Python 3
+
+## Dependencies installation Linux
+
+```bash
+sudo apt-get install libzbar0
+```
 
 ## Dependencies installation
 
